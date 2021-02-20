@@ -1,0 +1,82 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.bg{
+  width:100%;
+  height:50%;
+}
+
+.container-fluid{
+  padding: 3% 6%;
+}
+
+.navbar {
+  padding: 1% 5%;
+  background-color: /*#f1d1d0*/ #fcedda;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.navbar-right{
+  float: right;
+}
+.img-button{
+  background-color: #fcedda;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: content-box;
+}
+.donation-button{
+  margin-left: 20rem;
+}
+figure {
+  float: center;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+img.scaled {
+  width: 100%;
+}
+/* Style all font awesome icons */
+.contact-item{
+  color: black;
+}
+.donate-sec{
+background-color: #f1d1d0;
+background-image: url("https://www.transparenttextures.com/patterns/cutcube.png");
+padding-bottom: 9rem;
+}
+
+.foot {
+  background-color: #fcedda;
+  padding-top: 2rem;
+}
+.foot-icon{
+  margin-left: 1rem;
+  color: grey;
+}
